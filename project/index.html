@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-form">
+        <!-- LEFT IMAGE -->
+        <div class="login-form-image">
+          <div class="login-form-image-text">
+            <p class="login-form-image-text-title">Welcome to SimpleFlow</p>
+            <p class="login-form-image-text-description">
+              Your Gateway to Effortless Management.
+            </p>
+          </div>
+
+          <img src="/project/image/d71a1f0106b82a54e324dce1346501dcbea0e315.jpg" alt="" />
+
+          <div class="login-form-image-text-bottom">
+            <p class="login-form-image-text-title">Seamless Collaboration</p>
+            <p class="login-form-image-text-description">
+              Effortlessly work together with your team in real-time.
+            </p>
+          </div>
+        </div>
+
+        <!-- RIGHT FORM -->
+        <div class="login-form-input">
+          <div class="title-form">
+            <p>SimpleFlow</p>
+          </div>
+
+          <div class="main-btn-div">
+            <div class="btn-login-form">
+              <button class="btn-login">sign up</button>
+              <button class="btn-reg">sign in</button>
+            </div>
+          </div>
+
+          <form class="auth-form">
+            <!-- Username -->
+            <div class="input-group">
+              <label>Username</label>
+              <input
+                type="text"
+                class="username-input"
+                placeholder="Pick a username"
+              />
+
+              <span class="error-text-validation">Username is required</span>
+              <span class="error-text-validation">
+                Username must be between 3 and 15 characters
+              </span>
+              <span class="error-text-validation">
+                Username can only contain letters and numbers
+              </span>
+            </div>
+
+            <!-- Full Name -->
+            <div class="input-group">
+              <label>Full Name</label>
+              <input
+                type="text"
+                class="fullname-input"
+                placeholder="Enter your full name"
+              />
+
+              <span class="error-text-validation">Full name is required</span>
+              <span class="error-text-validation">
+                Full name must be at least 3 characters long
+              </span>
+              <span class="error-text-validation">
+                Full name can only contain letters and spaces
+              </span>
+            </div>
+
+            <!-- Email -->
+            <div class="input-group">
+              <label>Email</label>
+              <input
+                type="email"
+                class="email-input"
+                placeholder="Enter your email address"
+              />
+
+              <span class="error-text-validation">Email is required</span>
+              <span class="error-text-validation">
+                Please enter a valid email address
+              </span>
+            </div>
+
+            <!-- Password -->
+            <div class="input-group">
+              <label>Password</label>
+              <a href="#">forgot password?</a>
+              <input
+                type="password"
+                class="password-input"
+                placeholder="Enter your password"
+              />
+
+              <span class="error-text-validation">Password is required</span>
+              <span class="error-text-validation">Password is too weak</span>
+              <span class="error-text-validation">
+                Password must be at least 8 characters long
+              </span>
+              <span class="error-text-validation">
+                Password must contain at least one number or symbol
+              </span>
+            </div>
+
+            <!-- Password Checklist -->
+            <div class="text-validate">
+              <p>Password Strength : weak</p>
+              <p>Cannot contain your name or email address</p>
+              <p>At least 8 characters</p>
+              <p>Contains a number or symbol</p>
+            </div>
+
+            <button type="submit" class="submit-btn">Create Account</button>
+          </form>
+
+          <p class="Successfully-text">Account Created Successfully!</p>
+          <p class="Unsuccessfully-text">Account Created Unsuccessfully!</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="/project/js/script.js"></script>
+  </body>
+</html>
