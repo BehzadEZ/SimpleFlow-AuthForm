@@ -15,6 +15,7 @@ A modern user registration form built with pure HTML, CSS, and Vanilla JavaScrip
 - JavaScript (ES6)
 
 ## 🚀 Live Demo
-[Click here to view live](PASTE_LIVE_LINK_HERE)
+[Click here to view live demo](https://simple-flow-auth-form-hig3.vercel.app)
+
 
 ## 📂 Project Structure
