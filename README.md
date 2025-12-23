@@ -19,3 +19,6 @@ A modern user registration form built with pure HTML, CSS, and Vanilla JavaScrip
 
 
 ## 📂 Project Structure
+index.html
+css/styles.css
+js/script.js
